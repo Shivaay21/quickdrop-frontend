@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QRCodeCanvas } from "qrcode.react";
 import axios from "axios";
 
-const API_BASE_URL = "http://54.79.58.55:8080"; // Backend public URL
+const API_BASE_URL = "http://54.79.58.55"; // Backend public URL
 
 function App() {
   const [file, setFile] = useState(null);
